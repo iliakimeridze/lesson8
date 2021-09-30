@@ -1,0 +1,114 @@
+@font-face {
+	src: url(fonts.css/HelveticaNeue-Bold.ttf);
+	font-family: helv-bold;
+	src: url(fonts.css/HelveticaNeue-Regular.ttf);
+	font-family: helv-reg;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: #0A22F4;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+}
+/* HEADER STYLES */
+.header-content{
+    background-color: #0A22F4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    width: 97px;
+}
+.navbar-ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-li{
+    margin: 0 40px 0 0;
+}
+.navbar-li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: helv-reg;
+}
+.navbar-contact a{
+    color: #171717;
+    background-color: #FFFFFF;
+    padding: 18px 43px 18px 36px;
+    font-family: helv-bold;
+}
+/* CONTAINER STYLES */
+.section-container{
+    max-width: 1500px;
+    width: 1400px;
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;   
+    flex-wrap: nowrap;
+    border: 3px solid black;
+}
+.section-container img{
+    width: 500px;
+    /* height: 500px; */
+}
+.midd-img img{
+    margin: -40px 80px 0 80px ;
+}
+/* BULLETS & ARROWS STYLES */
+.bullets-arrows{
+    display: flex;
+    height: 27px;
+    padding-top: 20px;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+.bullets{
+    display: flex;
+    margin: 0 auto;
+    height: 20px;
+    width: 250px;
+}
+.bullet1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin-right: 20px;
+}
+.bullet2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 30%;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.arrows{
+    display: flex;
+    height: 35px;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.arrow-left{
+    transform: rotate(180deg);
+    opacity: 30%;
+    margin-right: 22px;
+}
+
+

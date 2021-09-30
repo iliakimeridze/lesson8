@@ -58,7 +58,7 @@ body{
     display: flex;
     justify-content: center;   
     flex-wrap: nowrap;
-    border: 3px solid black;
+/*     border: 3px solid black; */
 }
 .section-container img{
     width: 500px;
